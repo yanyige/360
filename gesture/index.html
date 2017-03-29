@@ -6,30 +6,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.animate-colors-min.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
 	<section class="gesture">
 		<header class="gesture-header"><p>手势密码</p></header>
-		<article class="graph-wrapper">
-			<div class="item"><span class="circle"></span></div>
-			<div class="item"><span class="circle"></span></div>
-			<div class="item"><span class="circle"></span></div>
-			<div class="item"><span class="circle"></span></div>
-			<div class="item"><span class="circle"></span></div>
-			<div class="item"><span class="circle"></span></div>
-			<div class="item"><span class="circle"></span></div>
-			<div class="item"><span class="circle"></span></div>
-			<div class="item"><span class="circle"></span></div>
-		</article>
-		<div class="info-panel">
+		<canvas id="canvas">
 
-		</div>
-		<div class="input-group">
-			<input type="radio" value="">设置密码
-			<input type="radio" value="">验证密码
-		</div>
-		<div id="result" style="position: absolute; top: 100px;">5555</div>
+		</canvas>
+		<article class="info-panel">
+			<p class="info">请选择操作</p>
+		</article>
+		<footer class="input-group">
+			<ul class="operator">
+				<li><input type="radio" value="" name="running-type" id="setPassword"><label for="setPassword">设置密码</label></li>
+				<li><input type="radio" value="" name="running-type" id="verifyPassword"><label for="verifyPassword">验证密码</label></li>
+			</ul>
+		</footer>
 	</section>
 </body>
 </html>

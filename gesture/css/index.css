@@ -6,57 +6,44 @@
 html, body {
 	width: 100%;
 	height: 100%;
+	font-family: Helvetica, Arial, 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, STHeiti, 华文细黑, sans-serif;
 }
 
 .gesture {
 	width: 100%;
 	height: 100%;
-	padding: 0% 8% 2%;
+	// padding: 0% 8% 2%;
 	box-sizing: border-box;
+	text-align: center;
 }
 
 .gesture-header {
-	height: 15%;
-	padding-top: 2rem;
+	padding: 2rem 0 0rem;
 	box-sizing: border-box;
+	font-size: 1.6rem;
 }
 
 .gesture-header p{
 	text-align: center;
-	font-family: Helvetica, Arial, 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, STHeiti, 华文细黑, sans-serif;
+
 }
 
-.graph-wrapper {
-	display: flex;
-	flex-wrap: wrap;
-	width: 80%;
-	margin: 0 auto;
-	height: 50%;
-}
-
-.item {
-	display: flex;
-	flex: 0 0 33.3333%;
-	justify-content: center;
-	align-items: center;
-}
-
-.circle {
-	width: 2rem;
-	height: 2rem;
-	background-color: #ffa726;
-	border-radius: 2rem;
-	border: 2px solid #fb8c00;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
+#canvas {
+	margin: 3rem auto 2rem;
 }
 
 .info-panel {
-	height: 10%;
+	margin-top: 2rem;
+}
 
+.info {
+	font-size: 1.2rem;
 }
 
 .input-group {
-	height: 25%;
+	margin-top: 2rem;
+}
+
+.operator li:nth-child(n + 1) {
+	margin-top: 1rem;
 }
