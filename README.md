@@ -22,3 +22,8 @@
 ## 关于响应式
 
 我制作的页面是响应式的, 具体使用的是rem进行设置CSS。 可以支持各种尺寸的设备。
+
+## 关于我
+我的github地址是https://github.com/yanyige/, [点击这里](https://github.com/yanyige/)进行查看。  
+我的简历：http://www.yyg233.cn/,  [点击这里](http://www.yyg233.cn/)进行查看。 
+我的博客：http://www.yyg233.cn/blog/, [点击这里](http://www.yyg233.cn/blog/)进行查看。 
