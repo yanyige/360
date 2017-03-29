@@ -15,12 +15,17 @@ html, body {
 	// padding: 0% 8% 2%;
 	box-sizing: border-box;
 	text-align: center;
+	background-color: #f0f0f2;
+	background-image: url('../images/small_points.png');
 }
 
 .gesture-header {
-	padding: 2rem 0 0rem;
+	padding: 1.6rem 0 1rem;
 	box-sizing: border-box;
 	font-size: 1.6rem;
+	font-weight: 500;
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #b5b7bd;
 }
 
 .gesture-header p{
