@@ -1,7 +1,7 @@
 # 360前端作业
 
 ## 前端作业的位置
-我将demo发布在(http://www.yyg233.cn/360/gesture/)这个位置, 欢迎使用手机浏览器点击查看。如果你使用的是电脑, 可以打开控制台, 点击Toggle Device mode 或者按下快捷键Ctrl + Shift + M进行查看。
+我将demo发布在了github上, 具体点击[这个位置](http://www.yyg233.cn/360/gesture/)进行查看, 欢迎使用手机浏览器点击查看。如果你使用的是电脑, 可以打开控制台, 点击Toggle Device mode 或者按下快捷键Ctrl + Shift + M进行查看。
 
 ## 关于兼容性
 测试过兼容**最新版本**firefox以及chrome浏览器, 手机支持iPhone5, 6, 6s, 6p, 以及大部分Android机型, 当然支持iPad。  
